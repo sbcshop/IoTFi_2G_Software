@@ -1,86 +1,29 @@
 '''
-#------------------------------------------------------------------------             
-# This is a python install script written for qwiic python package.         
-     
-# Written by  SparkFun Electronics, May 2019
-# This python library supports the SparkFun Electroncis qwiic 
-# ecosystem, providing an plaform indepenant interface to the 
-        
-        
-          
-# I2C bus. 
-        
-        
-          
+#------------------------------------------------------------------------
 #
-        
-        
-          
-# More information on qwiic is at https://www.sparkfun.com/qwiic
-        
-        
-          
+# This is a python library for IoTFi-2G Board
+# Written by SB Components Ltd 
 #
-        
-        
-          
-# Do you like this library? Help support SparkFun. Buy a board!
-        
-        
-          
-#
-        
-        
-          
 #==================================================================================
-        
-        
-          
-# Copyright (c) 2019 SparkFun Electronics
-        
-        
-          
+# Copyright (c) SB Components Ltd
 #
-        
-        
-          
 # Permission is hereby granted, free of charge, to any person obtaining a copy 
-        
-        
-          
 # of this software and associated documentation files (the "Software"), to deal 
-        
-        
-          
 # in the Software without restriction, including without limitation the rights 
-        
-        
-          
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
-        
-        
-          
 # copies of the Software, and to permit persons to whom the Software is 
-        
-        
-          
 # furnished to do so, subject to the following conditions:
-        
-        
-          
 #
-        
-        
-          
-# The above copyright notice and this permission notice shall be included in all    
+# The above copyright notice and this permission notice shall be included in all 
 # copies or substantial portions of the Software.
-#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR       
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,       
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE    
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER    
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,     
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE      
-# SOFTWARE.   
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+# SOFTWARE.
 #==================================================================================
 '''
 
@@ -98,18 +41,18 @@ pwr_enable = 29  # SIM868 Power key connected on GP22
 uart_port = 0
 uart_baud = 9600
 
-# Initializing UART0
+#==================================================================================
+# Initializing UART0 for SMI868
+#==================================================================================
 
-uart = UART(uart_port, uart_baud) #SIM868 UART 
+uart = UART(uart_port, uart_baud)
 print(os.uname())
 
+#==================================================================================
+# Initialisation of i2c for Accelerometer QMA7981
+#==================================================================================
 
-############ QMA7981 Module #######
-##################################
-
-
-i2c = I2C(0,scl=Pin(21),sda=Pin(20)) #Initialisation of i2c for Accelerometer
-
+i2c = I2C(0,scl=Pin(21),sda=Pin(20)) 
 '''
 qma7981_full_scale_range_t
     RANGE_2G = 0b0001,
@@ -154,6 +97,9 @@ for device in devices:
     else :
         print("device not found")
 
+#==================================================================================
+# Initialisation of i2c for Accelerometer QMA7981
+#==================================================================================         
 class accelerometer(object):
     def __init__(self):
         self.i2c = i2c
