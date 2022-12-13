@@ -32,6 +32,7 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico
 * Open Thonny IDE and Choose interpreter as MicroPython (Raspberry Pi pico).
 
 <img src="https://github.com/sbcshop/Raspberry-Pi-Pico-RFID-Expansion/blob/main/images/thonny-interpreter.PNG" />
+
 ## Repository Contents
 
 * [**/Python_Examples**](https://github.com/sbcshop/IoTFi_2G_Software/tree/main/Examples) - This directory contains Micropython Example codes.
