@@ -21,6 +21,17 @@ IoT-Fi is a compact low power IoT enabled device having the capability of GSM mo
 * Low power consumption
 * Embedded TCP/UDP Protocols
 
+## Downloading IDE
+* To open upython(.py) files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
+*  https://thonny.org/
+* For brief discriptions on how to get satrt with PICO rp2040, click on link below:
+https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico
+
+## For setup the Board in thonny </b>
+* Now connect USB Cable on USB Port of Pico.
+* Open Thonny IDE and Choose interpreter as MicroPython (Raspberry Pi pico).
+
+<img src="https://github.com/sbcshop/Raspberry-Pi-Pico-RFID-Expansion/blob/main/images/thonny-interpreter.PNG" />
 ## Repository Contents
 
 * [**/Python_Examples**](https://github.com/sbcshop/IoTFi_2G_Software/tree/main/Examples) - This directory contains Micropython Example codes.
