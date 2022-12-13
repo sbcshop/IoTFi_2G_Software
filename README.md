@@ -28,7 +28,7 @@ IoT-Fi is a compact low power IoT enabled device having the capability of GSM mo
 
 * [Getting Started with Micropython](https://github.com/sbcshop/SquaryPi-Software/tree/main/Python_Package) - Step by step guide to start with SquaryPi in Micropython
 * [Getting Started with Arduino IDE](https://github.com/sbcshop/SquaryPi-Software/tree/main/C_Package) - Step by step guide to start with SquaryPi in Arduino IDE
-* [Python Library](https://github.com/sbcshop/SquaryPi-Software/tree/main/Python_Package/Library) - This library provides all the functions/class to play with SquaryPi using Python Language
+* [Python Library](https://github.com/sbcshop/IoTFi_2G_Software/tree/main/Library) - This library provides all the functions/class to play with SquaryPi using Python Language
 * [C Library](https://github.com/sbcshop/SquaryPi-Software/tree/main/C_Package/Library) - This library provides all the functions/class to play with SquaryPi using C/C++ Language
 
 ## Documentation
