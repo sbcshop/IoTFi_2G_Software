@@ -21,7 +21,7 @@ IoT-Fi is a compact low power IoT enabled device having the capability of GSM mo
 
 ## Repository Contents
 
-* [**/Python_Package**](https://github.com/sbcshop/SquaryPi-Software/tree/main/Python_Package) - This directory contains Step by step Guide, Micropython Example codes and Library
+* [**/Python_Package**](https://github.com/sbcshop/IoTFi_2G_Software/tree/main/Examples) - This directory contains Step by step Guide, Micropython Example codes and Library
 
 ## Learning Guide
 
