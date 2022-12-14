@@ -40,7 +40,7 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico
 
 ## Documentation
 
-* [IoTFi-2G Software](https://github.com/sbcshop/IoTFi_2G_Software)
+* [IoTFi-2G Hardware](https://github.com/sbcshop/IoTFi_2G_Hardware)
 * [Raspberry Pi Pico Getting Started with Micropython](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
 * [Raspberry Pi Pico Official website](https://www.raspberrypi.com/documentation/microcontrollers/)
 * [RP2040 Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html)
