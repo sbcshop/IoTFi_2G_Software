@@ -58,7 +58,7 @@ To start working with our this board we have provided few basics examples accord
 
 * ***GSM_Buttons_Example*** this is the example of GSM module functionality. When you will upload this code in your board you can make a call, message, and get your location by simply pressing GP buttons provided in board.
 
-* ***SDCard_AccelerometerData.py*** this is data aquisition(gathring) from a sensor or device. In this example code you cand store the accelerometer data in SD card. Do not forget to put a sd card in it before running this example code.
+* ***SDcard_AccelerometerData.py*** this is data aquisition(gathring) from a sensor or device. In this example code you cand store the accelerometer data in SD card. Do not forget to put a sd card in it before running this example code.
 
 
 ## Related Products
