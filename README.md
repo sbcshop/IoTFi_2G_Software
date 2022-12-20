@@ -67,7 +67,10 @@ To start working with our this board we have provided few basics examples accord
 
  ![IoTFi-4G](https://cdn.shopify.com/s/files/1/1217/2104/products/Untitled-2.png?v=1669123121&width=400)
 
+* [PiTalk](https://shop.sb-components.co.uk/products/pitalk-modular-smartphone-for-raspberry-pi?variant=12516562436179) - Our other GSM Based product
 
+ ![PiTalk](https://cdn.shopify.com/s/files/1/1217/2104/products/PiTalk_-_Modular_SmartPhone_for_Raspberry_Pi_5.png?v=1528805795&width=400)
+ 
 ## Product License
 
 This is ***open source*** product. Kindly check LICENSE.md file for more informnation.
