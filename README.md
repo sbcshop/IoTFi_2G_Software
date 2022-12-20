@@ -48,6 +48,16 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico
 * [RP2040 Hardware Design](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 * [Raspberry Pi Pico Pinout](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 
+## Working With IoTFi-2G
+
+To start working with our this board we have provided few basics examples according to features included in this board. You can smply run the pyhon example code in your board by downloading and extracting this repository in your system. Below is the brief description of Example codes:
+
+* ***Accelerometer_Example*** this is the simple application of tilt indication in the four direction (i.e, Left, Right, Forward and , Backward). When you will upload this code in your baoard will see a ***box*** appearing according to the direction in which your board tilted. In case of no tilt it will show a message in display.
+
+* 
+* 
+
+
 ## Related Products
 
 * [IoTFi-4G](https://shop.sb-components.co.uk/products/iotfi-2g-4g-iot-board-based-on-rp2040?variant=40430002307155) - Our other GSM Based product in 4G version
