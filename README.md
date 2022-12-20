@@ -1,6 +1,6 @@
 # IoTFi-2G-Software
 
- <img src ="https://github.com/sbcshop/IoTFi/blob/main/images/IotFi%202G.png" />
+ <img src ="https://github.com/sbcshop/IoTFi_4G_Software/blob/main/images/Iot%20FI%202G%202.png" />
 
 IoT-Fi is a compact low power IoT enabled device having the capability of GSM modules (SIM868/SIM7600G-H) for providing network connectivity via using sim card and having the power of RP2040 chip. It also consists of an LCD 1.14” display, ESP32-C3, a 3.5mm jack for audio I/p - o/p, SD card and SIM card slot.
 
