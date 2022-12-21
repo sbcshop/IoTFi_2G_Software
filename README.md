@@ -54,12 +54,13 @@ To start working with our this board we have provided few basics examples accord
 
 * Before running any example codes library file must have to save in RP2040 of your boarboard. Locate the library file under the folder ***Library*** of this repository. Open it in Thonny IDE and save it by clicking on ***file*** (Upper-left corner in your IDE) and then click on ***save a copy***, choose ***raspberry pi pico*** option enter the file name and save it as it is(do not rename).
 
-* ***Accelerometer_Example*** this is the simple application of tilt indication in the four direction (i.e, Left, Right, Forward and , Backward). When you will upload this code in your baoard will see a ***box*** appearing according to the direction in which your board tilted. In case of no tilt it will show a message in display.
+* ***Accelerometer_Example.py*** this is the simple application of tilt indication in the four direction (i.e, Left, Right, Forward and , Backward). When you will upload this code in your baoard will see a ***box*** appearing according to the direction in which your board tilted. In case of no tilt it will show a message in display.
 
-* ***GSM_Buttons_Example*** this is the example of GSM module functionality. When you will upload this code in your board you can make a call, message, and get your location by simply pressing GP buttons provided in board.
+* ***GSM_Buttons_Example.py*** this is the example of GSM module functionality. When you will upload this code in your board you can make a call, message, and get your location by simply pressing GP buttons provided in board.
 
 * ***SDcard_AccelerometerData.py*** this is data aquisition(gathring) from a sensor or device. In this example code you cand store the accelerometer data in SD card. Do not forget to put a sd card in it before running this example code.
 
+* ***Wifi_Server.py*** this example code is for wiwi functionality. After connecting to any wifi network you will be able to use the wifi features of this board. 
 
 ## Related Products
 
