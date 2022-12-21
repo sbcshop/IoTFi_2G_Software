@@ -1,7 +1,7 @@
 '''
 #------------------------------------------------------------------------
 #
-# This is a python Example for IoTFi-2G Board
+# This is a python Example code for IoTFi-2G Board
 # Written by SB Components Ltd 
 #
 #==================================================================================
