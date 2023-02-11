@@ -268,6 +268,26 @@ class sim868:
                 print('SIM868 is offline, please wait...\r\n')
                 utime.sleep(2)
                 continue
+
+    def Simcard_checking(self): # check if simcard is locked
+        if self.Send_command("AT+CPIN?", "+CPIN: SIM PIN") == 1:
+            print('SIM requires PIN ... \r\n')
+            utime.sleep(2)
+            return 0
+        else:
+            print('SIM is active\r\n')
+            return 1
+
+    def Simcard_unlock(self, pin):
+        self.Check_and_start()
+        if(self.Simcard_checking()==1):
+            print('simcard already unlocked')
+            return
+        if(self.Send_command('AT+CPIN="'+str(pin)+'"', "OK") == 1):
+            print('simcard unlocked')
+            return
+        print("something's gone wrong with the SIM card. Possibly locked?")
+
     def gps(self):
         self.Check_and_start()
         count = 0
@@ -319,6 +339,9 @@ class sim868:
                 
     def call(self,mobile_number,time):
         self.Check_and_start() # Initialize SIM Module 
+        if(self.Simcard_checking()==0):
+            print('simcard locked abort')
+            return
         self.Network_checking() # Network connectivity check
         
         #Send_command('AT+CHFA=2', 'OK')
@@ -341,6 +364,9 @@ class sim868:
         
            # Send SMS function
         self.Check_and_start() 
+        if(self.Simcard_checking()==0):
+            print('simcard locked abort')
+            return
         self.Network_checking()
         self.Send_command('AT+CMGF=1', 'OK')
         if self.Send_command('AT+CMGS=\"'+phone_num+'\"', '>'):
